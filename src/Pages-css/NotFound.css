@@ -1,0 +1,22 @@
+.not-found-container{
+    height:90vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.not-found-div{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.not-found-image{
+    height:70%;
+    object-fit: cover;
+}
+.not-found-div h1{
+    font-size: 6rem;
+}

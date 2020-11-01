@@ -1,0 +1,127 @@
+.student-dashboard-container{
+    max-width: 80%;
+    margin:0 auto;
+    padding:0 2rem;
+}
+.profile{
+    padding:5rem 0;
+}
+.profile::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.profile-img{
+    float:left;
+    width:calc(50% - 1rem);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 3rem;
+    font-weight: lighter;
+}
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.profile-info-header{
+    display: flex;
+    align-items: center;
+}
+.address-hostel{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width:100%;
+    min-height: 50vh;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:50%;
+    padding: 2rem 1.2rem;
+}
+.address-header{
+    display: flex;
+    justify-content: flex;
+    align-items: center;
+    padding: 1rem;
+    width:100%;
+}
+.address-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1rem;
+    width:100%;
+}
+.hostel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:50%;
+    padding: 2rem 1.2rem;
+}
+.hostel-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+    width:100%;
+}
+.hostel-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1rem;
+    width:100%;
+}
+.popup{
+    display: grid;
+    grid-template-rows: 70% 30%;
+    height:250px;
+    max-width: 390px;
+}
+.popup-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    text-align: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.popup-buttons{
+    display: flex;
+    width:100%;
+}
+.popup-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.popup-button:nth-child(1){
+    border-right: 0.1px solid rgba(0,0,0,0.2);
+    color:#62d2a2;
+}
+.popup-button:nth-child(2){
+    border-left: 0.1px solid rgba(0,0,0,0.2);
+    color:#f56a79;
+}
+.message{
+    height:250px;
+    width: 250px;
+    max-width: 390px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}

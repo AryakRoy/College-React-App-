@@ -1,0 +1,21 @@
+.navigation-bar nav{
+    padding:0 !important;
+    color: #40514e !important;
+    height:10vh;
+    background-color: #fff !important;
+}
+.navbar-brand{
+    color: #40514e !important;
+}
+.logo{
+    width:25%;
+}
+.login_div{
+    display: flex;
+}
+.login-avatar{
+    transform:translateY(-20%);
+}
+.menu li{
+    color: rgba(0,0,0,0.3) !important;  
+}

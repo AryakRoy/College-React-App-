@@ -1,0 +1,178 @@
+.faculty-signup-container{
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+.faculty-signup-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width:70%;
+    height:100%;
+}
+.faculty-name {
+    padding:1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%;
+}
+.faculty-name-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+}
+.faculty-signup-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+}
+.faculty-name-input{
+    display: flex;
+    justify-content: space-between;
+}
+.faculty-select{
+    padding:1rem 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+}
+#name{
+    width:15rem;
+}
+#gender-select {
+    width:15rem;
+    color:#1fab89;
+}
+#address-select {
+    width:15rem;
+    color:#1fab89;
+}
+#Blood-Group-select{
+    width:15rem;
+    color:#1fab89;
+}
+#date-select{
+    width:15rem;
+    color:#1fab89;
+}
+.faculty-address{
+    padding:1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%;
+}
+.faculty-address-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+}
+.faculty-address-input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.faculty-address-select{
+    padding:1rem 1.2rem 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+.faculty-credential-hostel{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width:100%;
+}
+.faculty-credentials{
+    padding:1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:50%;
+}
+.faculty-credentials-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:50%;
+}
+.faculty-credentials-input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 25rem;
+}
+.faculty-hostel{
+    padding:1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:50%;
+}
+.faculty-hostel-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:50%;
+}
+.faculty-hostel-input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 25rem;
+}
+.submit-container{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 1.2rem;
+}
+.submit-btn{
+    width:30%;
+    height:3.5rem;
+    border-radius:2rem;
+    outline:none;
+    border:none;
+    font-size:1.2rem;
+    cursor:pointer;
+    background-color: #1fab89;
+    color:#d7fbe8;
+}
+#department-select{
+    width:25rem;
+    color:#1fab89;
+}
+#input-field{
+    color:#1fab89;
+    font-size:1rem;
+    background:transparent;
+    padding:1rem 1.2rem;
+    width:24rem;
+    border-radius:0.2rem;
+    outline:none;
+}
+#input-field1{
+    color:#1fab89;
+    font-size:1rem;
+    background:transparent;
+    padding:1rem 1.2rem;
+    width:19.7rem;
+    border-radius:0.2rem;
+    outline:none;
+}

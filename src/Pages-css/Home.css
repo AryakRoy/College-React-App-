@@ -1,0 +1,33 @@
+.home-container{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: row;
+    margin-top:5vh;
+    padding:0;
+}
+.home__text{
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+}
+.home__text h1{
+    font-size: 4vw;
+}
+.home__text p{
+    font-size: 2vw;
+    margin-top:4vw;
+}
+.home__image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(10%); 
+    height:100%;
+    width:100%;
+}
+.home-image{
+    width:49.785vw;
+    height:70vh;
+}
